@@ -1,4 +1,5 @@
 I. Présentation du projet
+
 Contexte
 Les réseaux sociaux représentent une ressource précieuse pour analyser et comprendre les comportements des utilisateurs en ligne. Ce projet vise à explorer les tendances globales des interactions, les sentiments exprimés, et leur impact sur les dynamiques sociales à travers des données structurées.
 
@@ -70,6 +71,7 @@ CalendarTable = ADDCOLUMNS(
     "Weekday", FORMAT([Date], "dddd"),
     "Quarter", QUARTER([Date])
 )
+
 IV. Description des modèles de données
 Modèle en étoile
 Le modèle utilisé sera en étoile pour sa simplicité et son adaptabilité aux analyses multidimensionnelles.
